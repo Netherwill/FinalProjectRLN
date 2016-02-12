@@ -3,9 +3,21 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="WWWWWWWWW"
-        android:id="@+id/textView7" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="Get HELP from Others"
+        android:id="@+id/button2"
+        android:layout_weight="1"
+        android:background="#ff0000"
+        android:layout_margin="30dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="HELPing Others"
+        android:id="@+id/button3"
+        android:layout_weight="1"
+        android:background="#0000ff"
+        android:layout_margin="30dp" />
 </LinearLayout>
