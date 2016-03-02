@@ -15,10 +15,10 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/editText"
+        android:id="@+id/Phone_Number"
         android:layout_row="0"
         android:layout_column="1"
-        android:hint="e.g. 123-456-7890" />
+        android:hint="each number registers once" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -31,7 +31,7 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/editText2"
+        android:id="@+id/Age"
         android:layout_row="1"
         android:layout_column="1"
         android:hint="e.g. 18" />
@@ -47,7 +47,7 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/editText3"
+        android:id="@+id/Gender"
         android:layout_row="2"
         android:layout_column="1"
         android:hint="e.g. Male" />
@@ -60,42 +60,34 @@
         android:layout_row="3"
         android:layout_column="0" />
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Protrait_image"
+        android:layout_row="4"
+        android:layout_column="1" />
+
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/editText4"
+        android:id="@+id/Position"
         android:layout_row="3"
         android:layout_column="1"
         android:hint="e.g. Student" />
 
-    <TextView
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Protrait"
-        android:id="@+id/textView5"
-        android:layout_row="4"
-        android:layout_column="0" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="file path"
-        android:id="@+id/textView6"
-        android:layout_row="4"
-        android:layout_column="1" />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageView"
+        android:text="Take a protrait"
+        android:id="@+id/take_a_protrait"
         android:layout_row="5"
-        android:layout_column="0" />
+        android:layout_column="1" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Select"
-        android:id="@+id/button"
-        android:layout_row="5"
+        android:text="Register"
+        android:id="@+id/Register"
+        android:layout_row="6"
         android:layout_column="1" />
 </GridLayout>
